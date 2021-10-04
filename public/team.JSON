@@ -1,0 +1,30 @@
+[
+  {
+    "id":1,
+    "img": "https://i.postimg.cc/T3gKf3YK/img1.png",
+    "name": "John Doe",
+    "profession": "CEO",
+    "experience": "EduPress is a powerful Education HTML template that comes with an easy template option interface. Suspendisse ante mi."
+  },
+  {
+    "id":2,
+    "img": "https://i.postimg.cc/431nH2cZ/img2.png",
+    "name": "Bernice Neumann",
+    "profession": "Programmer",
+    "experience": "EduPress is a powerful Education HTML template that comes with an easy template option interface. Suspendisse ante mi."
+  },
+  {
+    "id":3,
+    "img": "https://i.postimg.cc/BbjvyqVQ/img3.png",
+    "name": "Jenny Cameron",
+    "profession": "English Teacher",
+    "experience": "EduPress is a powerful Education HTML template that comes with an easy template option interface. Suspendisse ante mi."
+  },
+  {
+    "id":4,
+    "img": "https://i.postimg.cc/sgYgbHwS/img4.png",
+    "name": "Bob Neumann",
+    "profession": "Nutritionist",
+    "experience": "EduPress is a powerful Education HTML template that comes with an easy template option interface. Suspendisse ante mi."
+  }
+]

@@ -1,0 +1,63 @@
+.navbar {
+  height: 50px;
+  background-color: black;
+  padding: 0 50px;
+}
+.navbar img {
+  width: 100px;
+  height: 50px;
+  margin-right: 20px;
+}
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.fa-shopping-bag {
+  color: #ffff006e;
+  margin-right: 10px;
+}
+.fa-user {
+  color: #5eff00cb;
+  margin-right: 10px;
+}
+
+.search input {
+  width: 80%;
+  font: 1em sans-serif;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  outline: none;
+}
+.search input:focus {
+  border: 1px solid white;
+}
+
+/* 
+
+
+.header{
+    text-align: center;
+}
+.header img{
+    width: 250px;
+}
+.navbar{
+    height: 21px;
+    background-color: black;
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px 100px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+.navbar a:hover{
+    background-color: #808080a1;
+} */
