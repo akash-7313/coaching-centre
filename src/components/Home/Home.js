@@ -66,10 +66,10 @@ const Home = () => {
         </Carousel.Item>
       </Carousel>
 
-      <div className="mt-5">
-        <div className="text-center">
-          <h1 className="fw-bold">Popular Courses</h1>
-          <p>
+      <div className="mt-5 text-muted bg-light">
+        <div className="text-center bg-light py-3">
+          <h1 className="fw-bold text-primary">Popular Courses</h1>
+          <p className="text-muted">
             <i>
               Replenish him third creature and meat blessed void a fruit
               gathered you’re, they’re two <br /> waters own morning gathered

@@ -11,10 +11,10 @@ const Courses = () => {
   }, []);
 
   return (
-    <div className="bg-secondary pt-5 pb-4">
-      <div className="text-center text-info">
-        <h1 className="fw-bold">Choose a topic</h1>
-        <p>
+    <div className="bg-light pt-5 pb-4">
+      <div className="text-center">
+        <h1 className="fw-bold text-primary">Choose a topic</h1>
+        <p className="text-muted">
           <i>
             Replenish him third creature and meat blessed void a fruit gathered
             you’re, they’re two <br /> waters own morning gathered greater shall

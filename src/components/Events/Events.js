@@ -11,7 +11,7 @@ const Events = () => {
     }, []);
 
   return (
-    <div className="pt-5 pb-4">
+    <div className="pt-5 pb-4 bg-light">
       <div className="px-5 text-primary fw-bolder">
         <h2>Upcoming events</h2>
       </div>

@@ -1,18 +1,24 @@
 .navbar {
   height: 50px;
-  background-color: black;
+  background-color: #000000ec;
   padding: 0 50px;
 }
 .navbar img {
   width: 100px;
   height: 50px;
   margin-right: 20px;
+  opacity: 75%;
 }
 .navbar a {
   color: #ffffff;
   text-decoration: none;
   margin-right: 20px;
+  padding: 16px 5px;
 }
+.navbar a:hover{
+    background-color: #808080a1;
+} 
+
 .fa-shopping-bag {
   color: #ffff006e;
   margin-right: 10px;
@@ -34,30 +40,3 @@
 .search input:focus {
   border: 1px solid white;
 }
-
-/* 
-
-
-.header{
-    text-align: center;
-}
-.header img{
-    width: 250px;
-}
-.navbar{
-    height: 21px;
-    background-color: black;
-    text-align: left;
-    margin-top: 10px;
-    padding: 10px 100px;
-}
-.navbar a{
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-    margin-top: 10px;
-    padding: 10px 5px;
-}
-.navbar a:hover{
-    background-color: #808080a1;
-} */
