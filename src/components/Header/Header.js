@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <nav className="navbar">
       <div>
-        <img src={logo} alt="" />
+        <img className="opacity-75" src={logo} alt="" />
         <NavLink exact to="/home">
           Home
         </NavLink>
