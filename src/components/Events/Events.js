@@ -11,7 +11,7 @@ const Events = () => {
     }, []);
 
   return (
-    <div className="pt-5 pb-4 bg-light">
+    <div className="pt-5 pb-4 bg-light overflow-hidden">
       <div className="px-5 text-primary fw-bolder">
         <h2 className="border-bottom d-inline border-secondary border-3 pb-1">
           Upcoming events

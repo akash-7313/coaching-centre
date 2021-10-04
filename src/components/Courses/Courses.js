@@ -11,7 +11,7 @@ const Courses = () => {
   }, []);
 
   return (
-    <div className="bg-light pt-5 pb-4">
+    <div className="bg-light pt-5 pb-4 overflow-hidden">
       <div className="text-center">
         <h1 className="fw-bold text-primary border-bottom d-inline border-success border-3 pb-1">
           Choose a topic

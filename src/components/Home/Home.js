@@ -21,7 +21,7 @@ const Home = () => {
     color: "#00ff80",
   };
   return (
-    <div>
+    <div className="overflow-hidden">
       <Carousel fade>
         <Carousel.Item>
           <img className="d-block w-100" src={heroImage1} alt="First slide" />

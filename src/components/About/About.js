@@ -12,7 +12,7 @@ const About = () => {
             .then(data => setMembers(data));
     }, []);
     return (
-      <div className="bg-danger text-white pt-5 pb-4">
+      <div className="bg-danger text-white pt-5 pb-4 overflow-hidden">
         <div className="text-center">
           <h1 className="fw-bold">Meet Our Team</h1>
           <p>
