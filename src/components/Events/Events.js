@@ -13,9 +13,11 @@ const Events = () => {
   return (
     <div className="pt-5 pb-4 bg-light">
       <div className="px-5 text-primary fw-bolder">
-        <h2>Upcoming events</h2>
+        <h2 className="border-bottom d-inline border-secondary border-3 pb-1">
+          Upcoming events
+        </h2>
       </div>
-      <Row xs={1} md={1} className="g-4 py-4 px-2">
+      <Row xs={1} md={1} className="g-4 py-4 px-3">
         {events.map((event) => (
           <EventDetails key={event.id} event={event}></EventDetails>
         ))}

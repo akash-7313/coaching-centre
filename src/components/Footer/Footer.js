@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-light mt-5">
       <div className="container">
         <footer className="py-5">
-          <div className="row text-center">
+          <div className="row">
             <div className="col-md-3 col-12">
               <img width="150px" height="60px" src={logo} alt="" />
               <p>
@@ -41,7 +41,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-2 col-6">
+            <div className="col-md-2 col-6 text-center">
               <h5>Section</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
@@ -71,7 +71,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-2 col-6">
+            <div className="col-md-2 col-6 text-center">
               <h5>Section</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
@@ -104,23 +104,28 @@ const Footer = () => {
             <div className="col-md-4 col-12 offset-1">
               <form>
                 <h5>Subscribe to our newsletter</h5>
-                <p>Monthly digest of whats new and exciting from us.</p>
-                <div className="d-flex w-100 gap-2">
+                <p>
+                  Monthly digest of whats new and <br /> exciting from us.
+                </p>
+                <div className="d-flex w-75 gap-1">
                   <input
                     id="newsletter1"
                     type="text"
                     className="form-control"
                     placeholder="Email address"
                   ></input>
-                  <button className="btn btn-primary" type="button">
+                  <button
+                    className="btn btn-primary btn-sm"
+                    type="button"
+                  >
                     Subscribe
                   </button>
                 </div>
               </form>
             </div>
           </div>
-          <div className="text-center pt-3 border-top">
-            <p>© 2021 Company, Inc. All rights reserved.</p>
+          <div className="text-center mt-3 pt-3 border-top">
+            <p>&#xA9; 2021 Company, Inc. All rights reserved.</p>
           </div>
         </footer>
       </div>

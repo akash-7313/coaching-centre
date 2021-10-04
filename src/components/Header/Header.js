@@ -23,8 +23,7 @@ const Header = () => {
       </div>
       <div className="search">
         <input type="text" placeholder="Search here" />
-        <i className="fas fa-shopping-bag"></i>
-        <i className="fas fa-user"></i>
+        <i class="fas fa-user-circle"></i>
       </div>
     </nav>
   );

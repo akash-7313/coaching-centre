@@ -9,8 +9,8 @@ const CourseDetails = (props) => {
 
   return (
     <Col>
-      <Card style={height} className="shadow-sm">
-        <Card.Img variant="top" src={img} />
+      <Card style={height} className="shadow-sm h-100">
+        <Card.Img className="h-100" variant="top" src={img} />
         <Card.Body>
           <Card.Title>
             <b className="text-success">{name}</b>

@@ -68,8 +68,10 @@ const Home = () => {
 
       <div className="mt-5 text-muted bg-light">
         <div className="text-center bg-light py-3">
-          <h1 className="fw-bold text-primary">Popular Courses</h1>
-          <p className="text-muted">
+          <h1 className="fw-bold text-primary border-bottom d-inline border-success border-3 pb-1">
+            Popular Courses
+          </h1>
+          <p className="text-muted mt-3">
             <i>
               Replenish him third creature and meat blessed void a fruit
               gathered you’re, they’re two <br /> waters own morning gathered
@@ -77,7 +79,7 @@ const Home = () => {
             </i>
           </p>
         </div>
-        <Row xs={1} md={2} className="g-4 py-4 px-2">
+        <Row xs={1} md={2} className="gy-4 gx-5 px-5 my-4 mx-5">
           {popular.map((course) => (
             <PopularCourses key={course.id} course={course}></PopularCourses>
           ))}

@@ -6,8 +6,8 @@ const PopularCourses = (props) => {
     const { img, name, price} = props.course;
     return (
       <Col>
-        <Card className="shadow-sm">
-          <Card.Img variant="top" src={img} />
+        <Card className="shadow-sm h-100">
+          <Card.Img className="h-100" variant="top" src={img} />
           <Card.Body>
             <Card.Title>
               <b>{name}</b>
