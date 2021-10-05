@@ -28,7 +28,7 @@ const CourseDetails = (props) => {
             <small>Course fee: ${price}k</small>
           </b>
           <button className="btn btn-warning btn-sm">
-            <i class="fas fa-shopping-cart"></i> Add to Wishlist
+            <i className="fas fa-shopping-cart"></i> Add to Wishlist
           </button>
         </div>
       </Card>

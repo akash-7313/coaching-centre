@@ -28,7 +28,7 @@ const Header = () => {
       </div>
       <div className="search d-flex align-items-center justify-content-center">
         <input type="text" placeholder="Search here" />
-        <i class="fas fa-user-circle"></i>
+        <i className="fas fa-user-circle"></i>
       </div>
     </nav>
   );
