@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../images/logo.jpg";
 
 const Footer = () => {
   return (
@@ -8,8 +7,14 @@ const Footer = () => {
         <footer className="py-5">
           <div className="row">
             <div className="col-md-3 col-12 text-md-start text-center">
-              <img width="150px" height="60px" src={logo} alt="" />
-              <p className="mt-3 text-secondary">
+              <span className="name fs-1 text-center">
+                <b className="text-warning">a</b>
+                <b className="text-primary">lp</b>
+                <b className="text-warning">ha</b>
+                <b className="text-success">be</b>
+                <b className="text-warning">t</b>
+              </span>
+              <p className="mt-1 text-secondary">
                 There was a time when I wasn’t sure if I’d even be around to see
                 this day.
               </p>

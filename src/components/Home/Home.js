@@ -66,7 +66,7 @@ const Home = () => {
         </Carousel.Item>
       </Carousel>
 
-      <div className="mt-5 text-muted bg-light">
+      <div className="pt-5 text-muted bg-light">
         <div className="text-center bg-light py-3">
           <h1 className="fw-bold text-primary border-bottom d-inline border-success border-3 pb-1">
             Popular Courses
@@ -79,7 +79,7 @@ const Home = () => {
             </i>
           </p>
         </div>
-        <Row xs={1} md={3} className="g-4 mx-2">
+        <Row xs={1} md={3} className="g-4 mx-2 pb-5">
           {popular.map((course) => (
             <PopularCourses key={course.id} course={course}></PopularCourses>
           ))}

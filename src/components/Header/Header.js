@@ -1,13 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../images/logo.jpg";
 import "./Header.css";
 
 const Header = () => {
   return (
     <nav className="navbar">
-      <div>
-        <img className="opacity-75" src={logo} alt="" />
+      <div className="d-flex align-items-center">
+        <span className="name me-3 fs-3">
+          <b className="text-warning">a</b>
+          <b className="text-primary">lp</b>
+          <b className="text-warning">ha</b>
+          <b className="text-success">be</b>
+          <b className="text-warning">t</b>
+        </span>
         <NavLink exact to="/home">
           Home
         </NavLink>
@@ -21,7 +26,7 @@ const Header = () => {
           About
         </NavLink>
       </div>
-      <div className="search">
+      <div className="search d-flex align-items-center justify-content-center">
         <input type="text" placeholder="Search here" />
         <i class="fas fa-user-circle"></i>
       </div>

@@ -1,4 +1,4 @@
-# Education Coaching center
+# alphabet Coaching center
 
 This project was bootstrapped with [Create React App](https://education-react.netlify.app/).
 
@@ -14,7 +14,7 @@ Open [https://education-react.netlify.app/](https://education-react.netlify.app/
 IN today's speedy world ,skilled people amounts are very sufficient.\
 So, we make a effective course to make people educated, skilled & productive.
 
-### `our courses`
+### `course details`
 
 We are taking course about Nuitrition, Science, Fashion, Life coaching, Agronomy, Geography, English, Web Development, Art & Degien.\
 See the section about [running tests](https://education-react.netlify.app/) for more information.

@@ -3,23 +3,23 @@
   background-color: #000000ec;
   padding: 0 50px;
 }
-.navbar img {
-  width: 100px;
-  height: 50px;
-  margin-right: 20px;
+.name{
+  font-family: 'Gluten', cursive;
+  margin-right: 10px;
+  cursor: pointer;
 }
 .navbar a {
   color: #ffffff;
   text-decoration: none;
   margin-right: 20px;
-  padding: 16px 5px;
+  padding: 12px 5px;
 }
 .navbar a:hover{
     background-color: #808080a1;
 } 
 
 .fa-user-circle {
-  color: #5eff00cb;
+  color: #fffffffb;
   font-size: 24px;
   margin-left: 10px;
   cursor: pointer;
@@ -31,7 +31,10 @@
   border: 1px solid gray;
   border-radius: 20px;
   margin-right: 5px;
-  padding: 5px 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 5px;
+  padding-left: 10px;
   outline: none;
 }
 .search input:focus {
