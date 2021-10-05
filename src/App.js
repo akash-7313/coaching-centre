@@ -1,13 +1,12 @@
-import './App.css';
+import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from './components/Header/Header';
+import Header from "./components/Header/Header";
 import NotFound from "./components/NotFound/NotFound";
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
-import Footer from './components/Footer/Footer';
+import Footer from "./components/Footer/Footer";
 import Courses from "./components/Courses/Courses";
 import Events from "./components/Events/Events";
-
 
 function App() {
   return (

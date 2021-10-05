@@ -17,7 +17,7 @@ const About = () => {
           <h1 className="fw-bold">Meet Our Team</h1>
           <p>
             <i>
-              Who really happy to work with us a long time like a professionals!{" "}
+              Who really happy to work with us a long time like a professionals!
               <br /> The guys build a awesome comminuty since 2012!
             </i>
           </p>

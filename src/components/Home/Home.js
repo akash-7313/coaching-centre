@@ -27,7 +27,7 @@ const Home = () => {
           <img className="d-block w-100" src={heroImage1} alt="First slide" />
           <Carousel.Caption>
             <h3 style={heading}>
-              Choose thr bright <br /> and right carrer for <br /> you.{" "}
+              Choose thr bright <br /> and right carrer for <br /> you.
             </h3>
             <p style={paragraph}>
               There was a time when I wasn’t sure if I’d even be around to see
@@ -79,13 +79,13 @@ const Home = () => {
             </i>
           </p>
         </div>
-        <Row xs={1} md={2} className="gy-4 gx-5 px-5 my-4 mx-5">
+        <Row xs={1} md={3} className="g-4 mx-2">
           {popular.map((course) => (
             <PopularCourses key={course.id} course={course}></PopularCourses>
           ))}
         </Row>
       </div>
-      <div className="d-flex justify-content-around align-items-center bg-light py-5 my-5">
+      <div className="d-flex justify-content-around align-items-center bg-light py-5 mt-5 mb-3">
         <div className="text-center text-secondary">
           <i className="fas fa-book fa-4x"></i>
           <h3>356</h3>

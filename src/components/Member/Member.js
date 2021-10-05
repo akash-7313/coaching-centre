@@ -21,7 +21,7 @@ const Member = (props) => {
             </small>
           </Card.Text>
           <Card.Text>
-            <snall style={style}>{experience}</snall>{" "}
+            <small style={style}>{experience}</small>
           </Card.Text>
         </Card.Body>
       </Card>

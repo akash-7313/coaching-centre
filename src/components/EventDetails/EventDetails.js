@@ -15,9 +15,9 @@ const EventDetails = (props) => {
               </Card>
             </Col>
             <Col className="d-flex justify-content-center align-items-center">
-              <snall className=" border-bottom border-primary">
+              <small className=" border-bottom border-primary">
                 Date: {date}
-              </snall>
+              </small>
             </Col>
           </Row>
         </Col>
@@ -28,7 +28,7 @@ const EventDetails = (props) => {
                 <b className="text-success">{name}</b>
               </Card.Title>
               <Card.Text>
-                <snall className="text-muted">{description}</snall>
+                <small className="text-muted">{description}</small>
               </Card.Text>
             </Card.Body>
             <div className="d-flex justify-content-between px-3 my-2">
@@ -56,18 +56,3 @@ const EventDetails = (props) => {
 };
 
 export default EventDetails;
-
-/*
-<Card className="shadow-sm">
-          <Card.Img variant="top" src={img} />
-          <Card.Body>
-            <Card.Title>
-              <b>{name}</b>
-            </Card.Title>
-            <Card.Text>
-              <snall>{description}</snall>{" "}
-            </Card.Text>
-          </Card.Body>
-          <div className="d-flex justify-content-between align-items-center px-3"></div>
-        </Card>
-*/

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <footer className="py-5">
           <div className="row">
-            <div className="col-md-3 col-12">
+            <div className="col-md-3 col-12 text-md-start text-center">
               <img width="150px" height="60px" src={logo} alt="" />
               <p>
                 There was a time when I wasn’t sure if I’d even be around to see
@@ -114,10 +114,7 @@ const Footer = () => {
                     className="form-control"
                     placeholder="Email address"
                   ></input>
-                  <button
-                    className="btn btn-primary btn-sm"
-                    type="button"
-                  >
+                  <button className="btn btn-primary btn-sm" type="button">
                     Subscribe
                   </button>
                 </div>

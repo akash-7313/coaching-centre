@@ -16,7 +16,7 @@ const CourseDetails = (props) => {
             <b className="text-success">{name}</b>
           </Card.Title>
           <Card.Text>
-            <snall className="text-muted">{description}</snall>
+            <small className="text-muted">{description}</small>
           </Card.Text>
         </Card.Body>
         <div className="d-flex justify-content-between align-items-center text-muted px-3 mb-2">

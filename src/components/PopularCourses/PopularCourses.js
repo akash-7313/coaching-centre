@@ -18,8 +18,10 @@ const PopularCourses = (props) => {
               </b>
             </Card.Text>
           </Card.Body>
-          <div className="d-flex justify-content-between align-items-center p-3">
-            <h5>125 Students</h5>
+          <div className="d-flex justify-content-between align-items-center mx-3 my-2">
+            <h6>
+              <small>625 Students</small>{" "}
+            </h6>
             <button className="btn btn-secondary"> Enroll Now</button>
           </div>
         </Card>
