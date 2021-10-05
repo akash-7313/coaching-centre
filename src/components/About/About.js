@@ -12,10 +12,10 @@ const About = () => {
             .then(data => setMembers(data));
     }, []);
     return (
-      <div className="bg-danger text-white pt-5 pb-4 overflow-hidden">
+      <div className="bg-light pt-5 pb-4 overflow-hidden">
         <div className="text-center">
-          <h1 className="fw-bold">Meet Our Team</h1>
-          <p>
+          <h1 className="fw-bold text-secondary">Meet Our Team</h1>
+          <p className="text-muted">
             <i>
               Who really happy to work with us a long time like a professionals!
               <br /> The guys build a awesome comminuty since 2012!

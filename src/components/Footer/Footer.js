@@ -3,13 +3,13 @@ import logo from "../../images/logo.jpg";
 
 const Footer = () => {
   return (
-    <div className="bg-light mt-5">
+    <div className="bg-dark text-white mt-5">
       <div className="container">
         <footer className="py-5">
           <div className="row">
             <div className="col-md-3 col-12 text-md-start text-center">
               <img width="150px" height="60px" src={logo} alt="" />
-              <p>
+              <p className="mt-3 text-secondary">
                 There was a time when I wasn’t sure if I’d even be around to see
                 this day.
               </p>
@@ -104,7 +104,7 @@ const Footer = () => {
             <div className="col-md-4 col-12 offset-1">
               <form>
                 <h5>Subscribe to our newsletter</h5>
-                <p>
+                <p className="text-secondary">
                   Monthly digest of whats new and <br /> exciting from us.
                 </p>
                 <div className="d-flex w-75 gap-1">
@@ -121,8 +121,10 @@ const Footer = () => {
               </form>
             </div>
           </div>
-          <div className="text-center mt-3 pt-3 border-top">
-            <p>&#xA9; 2021 Company, Inc. All rights reserved.</p>
+          <div className="text-center mt-3 pt-3 border-top border-secondary">
+            <p className="text-success">
+              &#xA9; 2021 Company, Inc. All rights reserved.
+            </p>
           </div>
         </footer>
       </div>

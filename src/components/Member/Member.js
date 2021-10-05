@@ -3,25 +3,22 @@ import { Card, Col } from "react-bootstrap";
 
 const Member = (props) => {
 //   console.log(props.member);
-    const style = {
-      color: "#ffe6e6",
-    };
   const { img, name, profession, experience } = props.member;
   return (
     <Col>
       <Card>
         <Card.Img variant="top" src={img} />
-        <Card.Body className="bg-danger">
+        <Card.Body className="bg-light">
           <Card.Title>
-            <b>{name}</b>
+            <b className="text-success">{name}</b>
           </Card.Title>
           <Card.Text>
             <small>
-              <i className="text-Success">{profession}</i>
+              <i className="text-secondary">{profession}</i>
             </small>
           </Card.Text>
           <Card.Text>
-            <small style={style}>{experience}</small>
+            <small className="text-muted">{experience}</small>
           </Card.Text>
         </Card.Body>
       </Card>
